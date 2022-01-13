@@ -48,3 +48,9 @@
 
       Input: nums = [3,3], target = 6
       Output: [0,1]
+
+
+# Problem 3. Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
+Input - [2,4,3], [5,6,4]
+Output - [7,0,8]
