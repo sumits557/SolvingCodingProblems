@@ -94,3 +94,19 @@ nums2.length == n
 0 <= n <= 1000
 1 <= m + n <= 2000
 -106 <= nums1[i], nums2[i] <= 106
+
+# Problem 6.  Longest Palindromic Substring.
+
+Given a string s, return the longest palindromic substring in s.
+
+
+
+Example 1:
+
+Input: s = "babad"
+Output: "bab"
+Explanation: "aba" is also a valid answer.
+Example 2:
+
+Input: s = "cbbd"
+Output: "bb"
