@@ -3,26 +3,19 @@ import java.util.HashSet;
 public class MissingPositiveInteger {
 
     public int solution(int[] A) {
-        // special case
-        if (A.length <= 0) {
-            return  1;
+        Arrays.sort(nums);
+        int[] rev = new int[nums.length];
+        for(int i=nums.length-1, j=0; i>=0; i--)
+        {
+            rev[j++] = nums[i];
         }
-        //define int variable
-        int smallest  = 1;
-
-        //define hash set Data structure for checking array element
-        // is unique or not, hash set will only add once not hte duplicate value.
-        HashSet<Integer> hash = new HashSet<>();
-
-        //define for loop
-        for (int i = 0; i < A.length; i++) {
-            hash.add(A[i]);
+        int max = 0;
+        for(int i=0; i<nums.length; i++)
+        {
+            int sum = nums[i]+rev[i];
+            max = Math.max(sum, max);
         }
-
-        while (hash.contains(smallest)) {
-            smallest++;
-        }
-        return smallest;
+        return max;
     }
 
 }
