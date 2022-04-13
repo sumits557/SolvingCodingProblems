@@ -1,4 +1,4 @@
-public class ReverseInteger {
+public class PalindromeNumber {
 
         /**
          * GGiven an integer x, return true if x is palindrome integer.

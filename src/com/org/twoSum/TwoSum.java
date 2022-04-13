@@ -22,6 +22,10 @@ public class TwoSum {
      *   Input: nums = [3,3], target = 6
      *   Output: [0,1]
      */
+
+    public static void main(String[] args) {
+        System.out.println("Welcome: ");
+    }
  public int[] twoSum(int[] nums, int target) {
 
      Map<Integer, Integer> map = new HashMap<>();
