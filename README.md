@@ -258,3 +258,26 @@ Write an efficient algorithm for the following assumptions:
 
 N is an integer within the range [1..100,000];
 each element of array A is an integer within the range [−1,000,000..1,000,000].
+
+
+
+# Problem 12.  Find if path exist in current graph by DFS (Depth First Search)
+
+Case - 1
+
+![img.png](img.png)
+
+Input: n = 3, edges = [[0,1],[1,2],[2,0]], source = 0, destination = 2
+Output: true
+Explanation: There are two paths from vertex 0 to vertex 2:
+- 0 → 1 → 2
+- 0 → 2
+
+
+Case - 2 
+
+![img_1.png](img_1.png)
+
+Input: n = 6, edges = [[0,1],[0,2],[3,5],[5,4],[4,3]], source = 0, destination = 5
+Output: false
+Explanation: There is no path from vertex 0 to vertex 5.
