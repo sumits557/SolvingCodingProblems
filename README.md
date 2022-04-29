@@ -281,3 +281,25 @@ Case - 2
 Input: n = 6, edges = [[0,1],[0,2],[3,5],[5,4],[4,3]], source = 0, destination = 5
 Output: false
 Explanation: There is no path from vertex 0 to vertex 5.
+
+
+# Problem 13.  Find all the paths exist in current graph by DFS (Depth First Search)
+
+Case - 1
+
+![img_2.png](img_2.png)
+
+
+Input: graph = [[1,2],[3],[3],[]]
+Output: [[0,1,3],[0,2,3]]
+Explanation: There are two paths: 0 -> 1 -> 3 and 0 -> 2 -> 3.
+
+Case - 2
+
+
+![img_4.png](img_4.png)
+
+
+Input: graph = [[4,3,1],[3,2,4],[3],[4],[]]
+Output: [[0,4],[0,3,4],[0,1,3,4],[0,1,2,3,4],[0,1,4]]
+
