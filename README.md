@@ -303,3 +303,49 @@ Case - 2
 Input: graph = [[4,3,1],[3,2,4],[3],[4],[]]
 Output: [[0,4],[0,3,4],[0,1,3,4],[0,1,2,3,4],[0,1,4]]
 
+# Problem 14.  Find No of islands DFS (Depth First Search)
+
+Example 1:
+
+Input: grid = [
+["1","1","1","1","0"],     
+["1","1","0","1","0"],
+["1","1","0","0","0"],
+["0","0","0","0","0"]
+]
+
+Output: 1
+
+
+
+
+
+Example 2:
+
+Input: grid = [
+["1","1","0","0","0"],
+["1","1","0","0","0"],
+["0","0","1","0","0"],
+["0","0","0","1","1"]
+]
+
+
+
+Output: 3
+
+
+
+# Problem 15.  Manipulate String on the basis of given two string with certain conditions
+
+Example 1:
+
+String A = "Pqrst", String B = "psrqz"
+
+Output: PqRs-
+
+
+Example 2:
+
+String A = "AbCdu", String B = "zcadu"
+
+Output: a-cDU
