@@ -407,3 +407,16 @@ Initially your finger is at index 0. First you have to type 'c'. The time taken 
 The second character is 'b' and your finger is now at index 2. The time taken to type 'b' will be abs(1 - 2) = 1 because character 'b' is at index 1.
 The third character is 'a' and your finger is now at index 1. The time taken to type 'a' will be abs(0 - 1) = 1 because character 'a' is at index 0.
 The total time will therefore be 2 + 1 + 1 = 4.
+
+
+# Problem 18.  Longest Common Prefix
+
+Example 1:
+
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+Example 2:
+
+Input: strs = ["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.
