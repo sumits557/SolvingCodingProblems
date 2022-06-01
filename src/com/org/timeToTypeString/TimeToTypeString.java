@@ -20,11 +20,11 @@ public class TimeToTypeString {
             hashmap.put(keyboard.charAt(i),i);
         }
 
-        int result = hashmap.get(word.charAt(0));
+        int result = hashmap.get(inputText.charAt(0));
 
-        for(int i=1; i < word.length(); i++) {
-            int n = hashmap.get(word.charAt(i));
-            int m = hashmap.get(word.charAt(i-1));
+        for(int i=1; i < inputText.length(); i++) {
+            int n = hashmap.get(inputText.charAt(i));
+            int m = hashmap.get(inputText.charAt(i-1));
             System.out.println("n= " +n+ "m= "+m);
             result = result + Math.abs(n-m);
         }
