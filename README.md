@@ -435,3 +435,19 @@ Example 2:
 Input: strs = "( } [ ]  { )"
 Output: false
 Explanation: Invalid order of } bracket.
+
+
+# Problem 20.  Remove nth node from end of the LinkedList
+
+Example 1:
+
+Input: head = [1,2,3,4,5], n = 2
+Output: [1,2,3,5]
+
+Example 2:
+
+Input: head = [1], n = 1
+Output: []
+
+Input: head = [1,2], n = 1
+Output: [1]
