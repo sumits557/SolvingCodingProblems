@@ -1,3 +1,5 @@
+package org.longestCommonPrefix;
+
 public class LongestCommonPrefix {
 
 
@@ -12,7 +14,7 @@ public class LongestCommonPrefix {
      * @param strs
      * @return
      */
-    public int getLongestCommonPrefix(String[] strs) {
+    public String getLongestCommonPrefix(String[] strs) {
 
         if (strs.length == 0) return "";
         String prefix = strs[0];

@@ -1,3 +1,7 @@
+package org.listOfLongestSubstring;
+
+import java.util.*;
+
 public class LengthOfLongestSubstring {
 
     /**

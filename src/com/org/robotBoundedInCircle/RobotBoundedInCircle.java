@@ -1,3 +1,5 @@
+package org.robotBoundedInCircle;
+
 public class RobotBoundedInCircle {
 
     /**
@@ -45,7 +47,7 @@ public class RobotBoundedInCircle {
              y += directions[idx][1];
         }
      }
-     return (x == 0 && y == 0) || (idx =! 0);
+     return (x == 0 && y == 0) || (idx != 0);
  }
 
 }

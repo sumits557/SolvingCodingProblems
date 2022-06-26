@@ -1,3 +1,7 @@
+package org.romanToInteger;
+
+import java.util.*;
+
 public class RomanToInteger {
 
     static Map<String, Integer> values = new HashMap<>();

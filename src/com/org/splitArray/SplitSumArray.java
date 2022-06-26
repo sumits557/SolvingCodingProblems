@@ -1,3 +1,5 @@
+package org.splitArray;
+
 public class SplitSumArray {
 
 
