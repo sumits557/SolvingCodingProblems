@@ -1,8 +1,10 @@
-import java.util.HashSet;
+package org.mIssingPositiveInteger;
+
+import java.util.*;
 
 public class MissingPositiveInteger {
 
-    public int solution(int[] A) {
+    public int solution(int[] nums) {
         Arrays.sort(nums);
         int[] rev = new int[nums.length];
         for(int i=nums.length-1, j=0; i>=0; i--)

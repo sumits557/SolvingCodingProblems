@@ -1,3 +1,5 @@
+package org.stringToInteger;
+
 public class StringToInteger {
 
 

@@ -1,3 +1,5 @@
+package org.palindromeNumber;
+
 public class PalindromeNumber {
 
         /**

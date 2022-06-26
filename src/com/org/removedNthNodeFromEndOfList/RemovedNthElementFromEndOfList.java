@@ -1,3 +1,5 @@
+package org.removedNthNodeFromEndOfList;
+
 import java.util.*;
 public class RemovedNthElementFromEndOfList {
 

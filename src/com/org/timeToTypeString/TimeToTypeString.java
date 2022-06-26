@@ -1,3 +1,7 @@
+package org.timeToTypeString;
+
+import java.util.*;
+
 public class TimeToTypeString {
 
     /**
@@ -9,7 +13,8 @@ public class TimeToTypeString {
      * The third character is 'a' and your finger is now at index 1. The time taken to type 'a' will be abs(0 - 1) = 1 because character 'a' is at index 0.
      * The total time will therefore be 2 + 1 + 1 = 4.
      *
-     * @param input
+     * @param keyboard
+     * @param inputText
      * @return
      */
     public int calculateTime(String keyboard, String inputText) {
@@ -20,7 +25,7 @@ public class TimeToTypeString {
             hashmap.put(keyboard.charAt(i),i);
         }
 
-        int result = hashmap.get(inputText.charAt(0));
+         result = hashmap.get(inputText.charAt(0));
 
         for(int i=1; i < inputText.length(); i++) {
             int n = hashmap.get(inputText.charAt(i));

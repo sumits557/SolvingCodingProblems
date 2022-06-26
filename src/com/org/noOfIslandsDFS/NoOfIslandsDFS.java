@@ -1,3 +1,5 @@
+package org.noOfIslandsDFS;
+
 public class NoOfIslandsDFS {
 
     /**
