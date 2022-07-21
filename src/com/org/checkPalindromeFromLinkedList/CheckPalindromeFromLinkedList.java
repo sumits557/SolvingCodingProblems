@@ -22,7 +22,7 @@ public class CheckPalindromeFromLinkedList {
             reverseVals.add(vals.get(i));
         }
 
-        // check if the two arraylist are equla to each other
+        // check if the two arraylist are equal to each other
         for(int i=0; i < vals.size() - 1; i++) {
             if (vals.get(i) != reverseVals.get(i)) {
                 return false;
