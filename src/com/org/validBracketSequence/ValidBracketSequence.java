@@ -5,7 +5,7 @@ import java.util.*;
 
 public class ValidBracketSequence {
 
-    public final Map<Character, Character> map = Map.of('(',')','{','}','[',']');
+    public static final Map<Character, Character> map = Map.of('(',')','{','}','[',']');
 
     /**
      * This method validates if the input string has valid sequence of brackets or not
@@ -14,7 +14,7 @@ public class ValidBracketSequence {
      * @param input of type String
      * @return boolean flag true if valid
      */
-    public boolean isValidBracketSequence(String input) {
+    public static boolean isValidBracketSequence(String input) {
         Stack<Character> stack = new Stack<>();
         for (char c: input.toCharArray()) {
             if (map.containsKey(c)) {
@@ -30,6 +30,11 @@ public class ValidBracketSequence {
             }
         }
         return stack.isEmpty();
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Vaild string or not: " + isValidBracketSequence("{,},(,)"));
+
     }
 
 }
